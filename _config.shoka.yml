@@ -1,13 +1,13 @@
-alternate: Yume Shoka
+alternate: 香草巧克力冰淇淋
 
 # Assets
-statics: / #//cdn.jsdelivr.net/gh/amehime/shoka@latest/
+statics: / #//cdn.jsdelivr.net/gh/ttjygbtj/shoka@latest/
 
 open_graph:
-  #twitter_id:
-  #google_plus:
-  #fb_admins:
-  #fb_app_id:
+#twitter_id:
+#google_plus:
+#fb_admins:
+#fb_app_id:
 
 menu:
   home: / || home
@@ -24,13 +24,13 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/amehime || github || "#191717"
-  #google: https://plus.google.com/yourname || google
-  twitter: https://twitter.com/amehime || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/rurismzk || zhihu || "#1e88e5"
-  music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
-  weibo: https://weibo.com/amehime || weibo || "#ea716e"
-  about: https://about.me/amehime || address-card || "#3b5998"
+  github: https://github.com/ttjygbtj || github || "#191717"
+  google: https://plus.google.com/linguoxia|| google || "#55acd5"
+  twitter: https://twitter.com/ttjygbtj || twitter || "#00aff0"
+  zhihu: https://www.zhihu.com/people/shui-cang-hu || zhihu || "#1e88e5"
+  music: https://music.163.com/#/user/home?id=1574464962 || cloud-music || "#e60026"
+  weibo: https://weibo.com/ttjygbtj || weibo || "#ea716e"
+  about: https://about.me/ttjygbtj || address-card || "#3b5998"
   #email: mailto:yourname@mail.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -41,7 +41,7 @@ social:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2010
+  since: 2021
   count: true
 
 post:
@@ -63,21 +63,22 @@ valine:
   lang: zh-CN
   tagMember:
     master:
-      # - deea5a8d259d17182a53be1772e4c182
+    # - deea5a8d259d17182a53be1772e4c182
     friend:
       - deea5a8d259d17182a53be1772e4c182
 
 # bgm
 audio:
-   - title: 列表1
-      list:
-        - https://music.163.com/#/playlist?id=2943811283
-        - https://music.163.com/#/playlist?id=2297706586
-   - title: 列表2
-      list:
-        - https://music.163.com/#/playlist?id=2031842656
+  - title: 日语合集
+    list:
+      - https://music.163.com/#/playlist?id=2943811283
+      - https://music.163.com/#/playlist?id=2297706586
+      - https://music.163.com/#/playlist?id=2031842656
+  - title: 牛奶草莓小饼干喜欢的(≧∇≦)ﾉ
+    list:
+      - https://music.163.com/#/playlist?id=6931285881
 
-# Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
+# Dependencies: https://github.com/ttjygbtj/hexo-renderer-multi-markdown-it
 pangu: true
 
 # ---------------------------------------------------------------
