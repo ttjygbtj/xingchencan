@@ -6,13 +6,13 @@ tag: 教程
 cover: cover.jpg
 ---
 
-[^_^]:
 
-​		cover: <root>/source/assets/cover.jpg
 
 # 配置环境
 
-## 安装npm
+## mac安装node
+
+### 安装npm
 
 
 
@@ -21,7 +21,7 @@ git clone https://gitee.com/mirrors/nvm.git ~/.nvm && cd ~/.nvm && git checkout 
 ```
 > https://www.shangmayuan.com/a/f8cac747ffb4419fa95382bf.html
 
-## 为npm配置环境变量
+### 为npm配置环境变量
 
 
 
@@ -34,7 +34,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 > https://www.cnblogs.com/jiduoduo/p/14096774.html
 
 
-## 安装node
+### 安装node
 
 ```shell
 nvm install node	
@@ -58,10 +58,16 @@ https://blog.csdn.net/Fabulous1111/article/details/84983869
 
 +++
 
+## Win安装node
+
+[NodeJS、NPM安装配置步骤及环境变量详解](https://blog.csdn.net/shenggaofei/article/details/80361627)
+
+
 ## 安装hexo
 
 ```shell
 npm install -g hexo-cli
+npm install hexo-deployer-git --save
 ```
 
 
@@ -75,10 +81,13 @@ https://blog.csdn.net/f6619082/article/details/109193251
 ## 运行hexo
 
 ```shell
-# 清理，编译，搜索，推送，推送develop远程服务器，启动hexo五步走
+# mac:清理，编译，搜索，推送，推送develop远程服务器，启动hexo五步走
 hexo clean && hexo g && hexo a && hexo d && hexo s
 ```
-
+```shell
+# win
+hexo clean ; hexo g ; hexo a ; hexo d ; hexo s
+```
 # 主题美化
 
 [hexo官网主题](https://hexo.io/themes/)
