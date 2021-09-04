@@ -2,6 +2,8 @@
 title: excel
 date: 2021-08-25 20:40:17
 tags: Python
+categories:
+- [学习, Python]
 ---
 
 [利用xlwings写入一行或一列Excel数据](https://www.cnblogs.com/rongge95500/p/13201864.html)

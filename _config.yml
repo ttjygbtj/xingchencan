@@ -12,7 +12,7 @@ description: ''
 keywords: '学习, 生活, 梦想'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ttjygbtj.github.io
+#url: https://ttjygbtj.github.io
 root: /
 permalink: :title/ # edit for Theme.shoka
 permalink_defaults:
@@ -55,11 +55,13 @@ prismjs:
 # Category & Tag
 default_category: uncategorized
 category_map: # edit for Theme.shoka
-  计算机科学: computer-science
-  Java: java
-  二进制杂谈: note
-  零基础学Java语言-浙江大学-翁恺: course-1
-  Theme Shoka Documentation: theme-shoka-doc
+  学习: learning
+  课程: course
+  竞赛: game
+  生活: life
+  技巧: skill
+  电脑: computer
+  人工智能: AI
 tag_map:
 
 # Date / Time format

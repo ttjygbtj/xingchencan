@@ -2,6 +2,8 @@
 title: C04
 date: 2021-08-26 21:44:22
 tags: 比赛
+categories:
+- [比赛, 4C2021 AI 医学影像挑战赛]
 ---
 
 

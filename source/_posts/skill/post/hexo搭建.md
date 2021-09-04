@@ -4,6 +4,8 @@ title: mac上搭建基于hexo的博客,主题是shoka
 tag: 教程
 
 cover: cover.jpg
+categories:
+- [技能, post]
 ---
 
 
