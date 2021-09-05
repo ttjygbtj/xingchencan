@@ -29,7 +29,9 @@ git clone https://gitee.com/mirrors/nvm.git ~/.nvm && cd ~/.nvm && git checkout 
 
 ```shell
 vim ~/.zshrc
-# 打开文件：将下面的代码帖到光标处
+```
+打开文件：将下面的代码帖到光标处
+```shell
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
@@ -81,15 +83,11 @@ https://blog.csdn.net/f6619082/article/details/109193251
 :::
 
 ## 运行hexo
-
+清理，编译，搜索，推送，推送develop远程服务器，启动hexo五步走
 ```shell
-# mac:清理，编译，搜索，推送，推送develop远程服务器，启动hexo五步走
 hexo clean && hexo g && hexo a && hexo d && hexo s
 ```
-```shell
-# win
-hexo clean ; hexo g ; hexo a ; hexo d ; hexo s
-```
+
 # 主题美化
 
 [hexo官网主题](https://hexo.io/themes/)
